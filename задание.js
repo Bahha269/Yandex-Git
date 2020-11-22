@@ -13,7 +13,6 @@ ymaps.geocode(myMap.getCenter(), {
         kind: 'metro',
         results: 20
     }).then(function (res) {
-            // Задаем изображение для иконок меток.
             res.geoObjects.options.set('preset', 'islands#redCircleIcon');
             res.geoObjects.events
                 .add('mouseenter', function (event) {
