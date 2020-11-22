@@ -1,2 +1,2 @@
-# Yandex-Git
+# Junior Developer
 map
